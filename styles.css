@@ -1,3 +1,49 @@
 body {
+    font-size: 18px;
+  
     
+}
+
+h1,
+ h2 {
+    text-align: center;
+}
+
+h2 {
+    color: #00bbff;
+}
+
+table {
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Prevent table from getting too wide */
+    border-collapse: collapse; /* Crucial: Removes space between table cells */
+    margin: 20px auto; /* Center the table horizontally and add vertical space */
+    border: 2px solid #A8D0DB; /* Light teal border around the entire table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Slightly rounded corners for the table */
+    overflow: hidden; /* Ensures border-radius applies correctly to content */
+}
+
+
+thead, th {
+   background-color: #A8D0DB; /* Light teal background for header */
+    color: #414073; /* Dark purple text for header */
+    padding: 12px 15px; /* Padding inside header cells */
+    text-align: left; /* Align header text to the left */
+    font-weight: bold;
+}
+
+
+tbody td {
+    background-color: #F8F5FF; /* Very light purple/off-white background for body rows */
+    color: #333; /* Darker text for readability */
+    padding: 10px 15px; /* Padding inside data cells */
+    text-align: left; /* Align data text to the left */
+    border-bottom: 1px solid #E6E0D4; /* Subtle separator line between rows */
+
+}
+
+.example {
+    font-family: "Lucida Console", Courier, monospace;
+
 }
